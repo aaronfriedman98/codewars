@@ -12,7 +12,6 @@ function countVowels(string){
     return console.log(count)
 }
 
-
 countVowels("hello") // 2
 countVowels("greetings") // 3
 countVowels("how are you doing?") // 7
