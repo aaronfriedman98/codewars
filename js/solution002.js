@@ -25,7 +25,6 @@ function getGrade(grd1,grd2,grd3){
     }
 }
 
-
 getGrade(80,90,100) // A
 getGrade(70,80,90) // B
 getGrade(60,70,80) // C
