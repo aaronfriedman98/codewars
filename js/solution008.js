@@ -4,7 +4,6 @@
 
 
 
+const past = (h,m,s) => console.log(s*1000 + m*1000*60 + h*60*60*1000)
 
-const past = (h,m,s) => console.log(s*100 + m*100*60 + h*100*60*60)
-
-past(1,1,1)  // 366100
+past(1,1,1)  // 3661000
