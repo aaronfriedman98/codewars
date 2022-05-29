@@ -1,10 +1,10 @@
-// test if 2 strings are anagrams
+// test if 2 strings are anagrams, ignore capitals
 // P: 2 strings
 // R: true or false
 
 function isAnagram(string1, string2){
-    let array1 = string1.split('')
-    let array2 = string2.split('')
+    let array1 = string1.toLowerCase().split('')
+    let array2 = string2.toLowerCase().split('')
     array1.sort()
     array2.sort()
     let newString1 = array1.join('')
