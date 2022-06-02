@@ -4,7 +4,13 @@
 // R: int, not negative
 
 function number(array){
-
+    let passengerTotal = 0
+    for(let i = 0; i < array.length; i++){
+        passengerTotal += array[i][0]
+        passengerTotal -= array[i][1]
+    }
+    return passengerTotal
 }
 
-console.log(number([]))
+console.log(number([[5,0],[5,0],[0,5],[0,4]])) // 1
+console.log(number([[5,0],[5,0],[0,5],[0,5]])) // 0
