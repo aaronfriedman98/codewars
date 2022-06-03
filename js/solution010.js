@@ -7,7 +7,11 @@
 function validatePIN(pin){
     let total = 0
     for(let i = 0; i < pin.length; i++){
-        if(pin[i] === '1' || pin[i] === '2' || pin[i] === '3' || pin[i] === '4' || pin[i] === '5' || pin[i] === '6' || pin[i] === '7' || pin[i] === '8' || pin[i] === '9' || pin[i] === '0'){
+        if(pin[i] === '1' || pin[i] === '2' ||
+           pin[i] === '3' || pin[i] === '4' || 
+           pin[i] === '5' || pin[i] === '6' || 
+           pin[i] === '7' || pin[i] === '8' || 
+           pin[i] === '9' || pin[i] === '0'){
             total+=1
         }
         else{
