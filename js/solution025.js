@@ -6,16 +6,15 @@
 // R: array with elements creating a wave
 
 function wave(str){
-    let array = []
+    let result = []
     for(let i = 0; i < str.length; i++){
-        array[i] = str
-    }
-    for(let j = 0; j < array.length; j++){
-        for(let k = 0; k < array.length; k++){
-            array[j][k] = array[j][k].toUpperCase()
+        let tempArray = str.split("")
+        if(tempArray[i] !== ' '){
+            tempArray[i] = tempArray[i].toUpperCase()
+            result.push(tempArray.join(''))
         }
     }
-    return array
+    return result
 }
 
 
