@@ -3,7 +3,7 @@
 // P: number, number, number
 // R: true or false
 
-
+const zeroFuel = (distance, mpg, gallons) => mpg * gallons >= distance ? true : false
 
 
 console.log(zeroFuel(50,25,2)) // true
