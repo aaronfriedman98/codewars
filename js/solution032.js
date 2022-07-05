@@ -2,8 +2,10 @@
 // P: string
 // R: string
 
-function solution(string) {
+function solution(strings) {
     let count = 0
+    let string = strings.split("")
+    // console.log(string)
     for(let i = 0; i < string.length-1; i++){
         if(string[i] === 'a'.toLowerCase() || string[i] === 'b'.toLowerCase() || 
            string[i] === 'c'.toLowerCase() || string[i] === 'd'.toLowerCase() || 
@@ -31,13 +33,25 @@ function solution(string) {
            string[i+1] === 's'.toUpperCase() || string[i+1] === 't'.toUpperCase() || 
            string[i+1] === 'u'.toUpperCase() || string[i+1] === 'v'.toUpperCase() || 
            string[i+1] === 'w'.toUpperCase() || string[i+1] === 'x'.toUpperCase() || 
-           string[i+1] === 'y'.toUpperCase() || string[i+1] === 'z'.toUpperCase() ) 
+           string[i+1] === 'y'.toUpperCase() || string[i+1] === 'z'.toUpperCase() )
            {
             // string[i] += ' '
             console.log(string[i])
            }
     }
 }
+
+// function solution(string) {
+//     let res = "";
+//     let letters = string.split("");
+//     letters.forEach(letter=>{
+//       if(letter.toUpperCase() == letter)
+//         res+=" "+letter
+//       else
+//         res+=letter
+//     })
+//     return res;
+// }
 
 console.log(solution("Hi, HowAre You")) // "Hi, How Are You"
 console.log(solution("")) // ""
