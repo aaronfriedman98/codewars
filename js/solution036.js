@@ -11,3 +11,4 @@ function grow(array){
 }
 
 console.log(grow([1,2,3,4,5])) // 120
+console.log(grow([1,2,3,4,-4])) // -96
