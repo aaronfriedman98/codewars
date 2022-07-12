@@ -3,7 +3,7 @@
 // R: true or false
 // SOLUTION: check if the base % number is equal to 0 and then return true or false
 
-const checkForFactor = (base, factor) => base % factor === 0 ? true : false
+const checkForFactor = (base, factor) => base % factor === 0
 
 console.log(checkForFactor(8,2)) // true
 console.log(checkForFactor(9,2)) // false
