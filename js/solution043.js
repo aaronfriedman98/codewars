@@ -20,3 +20,4 @@ function accum(string) {
 }
 
 console.log(accum('aBcd')) // 'A-Bb-Ccc-Dddd'
+console.log(accum('hBl')) // 'H-Bb-Lll'
