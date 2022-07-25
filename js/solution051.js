@@ -3,4 +3,4 @@
 
 const greet = () => "Hello World!"
 
-console.log(greet) // "Hello World!"
+console.log(greet) // "hello world!"
