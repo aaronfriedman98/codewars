@@ -5,7 +5,15 @@
 //              loop through the parameter array and check the length of each element
 //              if any have a length of 4 then push it to the final array
 
-function friend()
+function friend(names) {
+    let friends = []
+    for(let i = 0; i < names.length; i++) {
+        if (names[i].length === 4) {
+            friends.push(names[i])
+        }
+    }
+    return friends
+}
 
 
 
