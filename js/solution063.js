@@ -24,7 +24,5 @@ function max(list) {
     return max
 }
 
-
-
 console.log(min([3,5,35,56,1])) // 1
 console.log(max([3,5,35,56,1])) // 56
