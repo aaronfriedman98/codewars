@@ -5,7 +5,7 @@
 //              loop through the array checking if any elements are smaller or larger
 
 function min(list) {
-    let mmin = list[0]
+    let min = list[0]
     for (let i = 1; i < list.length; i++) {
         if (min > list[i]) {
             min = list[i]
